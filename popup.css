@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+    overflow: hidden;
+}
+.date-header,.date-body,.date-panel{
+	background: #3f4c6b;
+	color: #fff;
+}
+.date-header{
+    height: 60px;
+    border-bottom:1px solid rgba(255,255,255,0.5);
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 20px;
+    line-height: 60px;
+}
+.prev{
+    width: 80px;
+    float: left;
+    line-height: 60px;
+}
+.next{
+    width: 80px;
+	float:right;
+    line-height: 60px;
+}
+.prev:hover,.next:hover{
+    cursor: pointer;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.6);
+}
+.date-title{
+    font-weight: 400;
+    font-size:30px;
+}
+.date-body{
+    text-align: center;
+    cursor: default;
+}
+.date-body>.date-panel{
+    margin:0 auto;
+}
+.date-panel thead th{
+    padding:10px 30px;
+    font-weight: 300;
+    font-size:20px;
+}
+.date-panel tbody td{
+    padding:20px;
+}
+.date-panel tbody td:hover{
+    cursor: pointer;;
+    font-weight:800;
+    background: rgba(255, 255, 255, 0.6);
+}
